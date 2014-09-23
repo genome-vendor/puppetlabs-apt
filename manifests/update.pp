@@ -1,4 +1,5 @@
 class apt::update {
+  include apt
   include apt::params
 
   exec { 'apt_update':
